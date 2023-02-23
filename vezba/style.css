@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    border-bottom: 1px solid #dedede;
+    display: inline;
+}
+
+.bg-image {
+    height: 100vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(pozadina.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.first {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 3px;
+    color: white;
+    padding-top: 18px;
+}
+
+button {
+    font-size: 21px;
+    background-color: inherit;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid grey;
+    padding: 6px;
+
+}
+
+button:hover {
+    color: grey;
+}
+
+img {
+    width: 220px;
+    height: 133px;
+    border-radius: 13px;
+    border: 1px solid gold;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+
+}
+
+.orderone {
+    display: flex;
+    flex-direction: column;
+    /* top | right | bottom | left */
+    margin: 64px 256px 64px 256px;
+    /* align-items: center;
+    justify-content: center; */
+    /* flex: 33.33%;
+    padding: 5px;
+    gap: 44px; */
+    gap: 55px;
+
+}
+
+.ordertwo {
+    display: flex;
+    flex-direction: column;
+    margin: 64px 256px 64px 256px;
+    /* align-items: center;
+    justify-content: center; */
+    /* flex: 33.33%;
+    padding: 5px;
+    gap: 44px; */
+    gap: 55px;
+}
+
+.pancace {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.diner-double {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.shake {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.country {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.egg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+.bacon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.american {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h3 {
+    color: gold;
+    font-size: 23px;
+
+}
